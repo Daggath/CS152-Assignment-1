@@ -1,4 +1,7 @@
-CS152-Assignment-1 (Due Friday, September 6 at 11:59 PM)
+CS152-Assignment-1 
+==================
+
+(Due Friday, September 6 at 11:59 PM)
 _______________________________________________________________
 Each team writes a FORTRAN IV program.
 
