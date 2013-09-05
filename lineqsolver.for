@@ -9,8 +9,7 @@ C
       DOUBLE PRECISION A(4, 4)
       DOUBLE PRECISION B(4, 1)
       DOUBLE PRECISION AINV(4, 4)
-      DOUBLE PRECISION X(4, 1)
-      DOUBLE PRECISION AXB(4, 1)
+      DOUBLE PRECISION X(4, 1) 
       DOUBLE PRECISION AXAINV(4, 4)
       DOUBLE PRECISION AXX(4, 1)
 C
@@ -310,7 +309,7 @@ C
               DO 300 K = 1, N
                   SUM = SUM + A(I, K) * B(K, J)
   300         CONTINUE
-	      AXB(I, J) = SUM
+              AXB(I, J) = SUM
   200     CONTINUE
   100 CONTINUE
 C
@@ -325,7 +324,7 @@ C
       DOUBLE PRECISION V(4, 1)
       DOUBLE PRECISION AXV(4, 1)
 C
-      INTEGER I, J, K
+      INTEGER I, K
       DOUBLE PRECISION SUM
 C
       DO 100 I = 1, N
@@ -338,4 +337,3 @@ C
 C
       RETURN
       END
-C
